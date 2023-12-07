@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>Shield_Icon.png</file>
+        <file>show.png</file>
+    </qresource>
+</RCC>
