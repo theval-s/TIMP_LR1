@@ -46,7 +46,7 @@
          </widget>
         </item>
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="browse_button">
           <property name="text">
            <string>Изменить</string>
           </property>
@@ -84,7 +84,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_2">
+       <widget class="QPushButton" name="change_button">
         <property name="enabled">
          <bool>false</bool>
         </property>
@@ -101,7 +101,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_2">
       <item>
-       <widget class="QLineEdit" name="lineEdit_2">
+       <widget class="QLineEdit" name="password">
         <property name="inputMethodHints">
          <set>Qt::ImhHiddenText|Qt::ImhNoAutoUppercase|Qt::ImhNoPredictiveText|Qt::ImhSensitiveData</set>
         </property>
@@ -111,7 +111,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_3">
+       <widget class="QPushButton" name="show_button">
         <property name="toolTip">
          <string>Показывает введённый пароль.</string>
         </property>
@@ -129,7 +129,7 @@
     <item>
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <item>
-       <widget class="QPushButton" name="pushButton_4">
+       <widget class="QPushButton" name="start_button">
         <property name="toolTip">
          <string>При запуске программы в файл template.tbl записывается текущий список имён и шаблонов, в случае если файл возможно изменить (файл перезаписывается). Файл при этом блокируется и изменить его сможет только администратор, либо его можно изменить при вводе правильного пароля.</string>
         </property>
@@ -139,7 +139,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="QPushButton" name="stop_button">
         <property name="toolTip">
          <string>Останавливает ограничение прав на файлы по заданных в template.tbl именам и шаблонам. В случае, если на файл был задан пароль, для остановки необходимо будет его правильно ввести.</string>
         </property>

@@ -16,19 +16,20 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
+    void on_browse_button_clicked();
 
-    void on_pushButton_3_released();
+    void on_show_button_released();
 
-    void on_pushButton_3_pressed();
+    void on_show_button_pressed();
 
-    void on_pushButton_2_clicked();
+    void on_change_button_clicked();
 
-    void on_pushButton_4_clicked();
+    void on_start_button_clicked();
 
-    void on_pushButton_5_clicked();
+    void on_stop_button_clicked();
 
 private:
+    void closeEvent (QCloseEvent *event);
     Ui::MainWindow *ui;
     void read_from_template();
     void save_to_template();
