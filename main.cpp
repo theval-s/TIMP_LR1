@@ -5,7 +5,9 @@
 #error This can be only compiled on Windows due to usage of windows.h
 #endif
 
-
+/*To deploy with minimal dependencies use
+ * windeployqt.exe ./ --no-compiler-runtime --no-translations --no-system-d3d-compiler --no-opengl-sw --no-plugins --no-pdf --no-svg --no-network
+ */
 int main(int argc, char *argv[])
 {
     //Создаём GUI и вызываем его
