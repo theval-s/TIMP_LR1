@@ -317,7 +317,7 @@ void MainWindow::save_to_template(){
     }
     QTextStream out(&file);
     //Сохраняем пароль в виде хеша SHA256 в первой строке
-    if(ui->password->text().isEmpty()){
+    if(!ui->password->text().isEmpty()){
         QByteArray hash = QCryptographicHash::hash(ui->password->text().toUtf8(), QCryptographicHash::Sha256);
         out << hash.toHex() << Qt::endl;
     } else out << Qt::endl;
